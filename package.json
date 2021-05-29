@@ -1,0 +1,13 @@
+{
+  "name": "buffer-render",
+  "version": "1.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ulrich Barnstedt / 0x81",
+  "license": "ISC",
+  "description": "Efficient terminal rendering, based on a 2D buffer",
+  "homepage": "https://github.com/ulrich-barnstedt/buffer-render"
+}
