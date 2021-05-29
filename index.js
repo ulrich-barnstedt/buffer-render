@@ -27,7 +27,7 @@ module.exports = class {
             diff[y] = [];
 
             for (let x = 0; x < this.size.x; x++) {
-                diff[x] = -1;
+                diff[y][x] = -1;
 
                 if (this.buffer[y][x] !== this.interalBuffer[y][x] && this.buffer[y][x] !== -1) {
                     diff[y][x] = this.buffer[y][x];
